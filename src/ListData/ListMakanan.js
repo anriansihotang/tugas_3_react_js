@@ -2,16 +2,16 @@ import React, { Component } from "react";
 
 class ListMakanan extends Component {
 	constructor(props) {
-		super(props);
-		this.State = {
-			datalist: this.props.linkmakanan
-		};
+		super(props)
+		this.state = {
+			datalist: this.props.linkgambar
+		}
 	}
 
 	render() {
 		return (
 			<div>
-				<img src={this.State.datalist} alt="Product Makanan" width="150"/>
+				<img src={this.state.datalist} alt="Product Makanan" width="150"/>
 			</div>
 		);
 	}
